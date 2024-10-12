@@ -1,0 +1,193 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.17">
+  <diagram name="Página-1" id="NU81W_qADF7oIC7cMkHF">
+    <mxGraphModel dx="868" dy="443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sStl8TKwt9BqkflRGXfz-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sStl8TKwt9BqkflRGXfz-5" target="sStl8TKwt9BqkflRGXfz-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-5" value="Agendamento" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="178.25" width="650" height="200" as="geometry">
+            <mxRectangle x="170" y="178.25" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-7" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mobile_client;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="sStl8TKwt9BqkflRGXfz-5">
+          <mxGeometry x="20" y="31.75" width="40.5" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-8" value="Cliente agendando o serviço" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sStl8TKwt9BqkflRGXfz-5" source="sStl8TKwt9BqkflRGXfz-7" target="sStl8TKwt9BqkflRGXfz-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="266.75" y="78.47000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-42" value="Amazon SNS" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.sns;" vertex="1" parent="sStl8TKwt9BqkflRGXfz-5">
+          <mxGeometry x="260" y="41.75" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-3" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="sStl8TKwt9BqkflRGXfz-5">
+          <mxGeometry x="600" y="121.75" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-9" value="Serviço processado e enviado para o sistema administrador" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.019;entryY=0.51;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="sStl8TKwt9BqkflRGXfz-5" source="sStl8TKwt9BqkflRGXfz-42" target="sStl8TKwt9BqkflRGXfz-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="343.25" y="80.02586206896558" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="410" y="92" />
+              <mxPoint x="410" y="149" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-16" value="Sistema cria/atualiza o cadastro do cliente" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sStl8TKwt9BqkflRGXfz-12" target="sStl8TKwt9BqkflRGXfz-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="573.4999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-23" value="sistema de banco de dados atualiza com informações de clientes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sStl8TKwt9BqkflRGXfz-12" target="sStl8TKwt9BqkflRGXfz-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-12" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="440" y="480" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sStl8TKwt9BqkflRGXfz-13" target="sStl8TKwt9BqkflRGXfz-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-13" value="Gerenciamento de cadastro" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="410" width="650" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-11" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mobile_client;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="sStl8TKwt9BqkflRGXfz-13">
+          <mxGeometry x="20" y="60" width="40.5" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-19" value="" style="image;html=1;image=img/lib/clip_art/computers/Database_Move_Stack_128x128.png" vertex="1" parent="sStl8TKwt9BqkflRGXfz-13">
+          <mxGeometry x="267.92" y="210" width="46.75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-44" value="Amazon Cognito" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.cognito;" vertex="1" parent="sStl8TKwt9BqkflRGXfz-13">
+          <mxGeometry x="480" y="160" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-14" value="Cliente envia os dados do cadastro" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.017;entryY=0.612;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sStl8TKwt9BqkflRGXfz-11" target="sStl8TKwt9BqkflRGXfz-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sStl8TKwt9BqkflRGXfz-24" target="sStl8TKwt9BqkflRGXfz-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-24" value="Agendamento realizado" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="750" width="650" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-29" value="Amazon QuickSight" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.quicksight;" vertex="1" parent="sStl8TKwt9BqkflRGXfz-24">
+          <mxGeometry x="420" y="123.38" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-31" value="O sistema salva o agendamento&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sStl8TKwt9BqkflRGXfz-24" source="sStl8TKwt9BqkflRGXfz-30" target="sStl8TKwt9BqkflRGXfz-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="92" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-30" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="sStl8TKwt9BqkflRGXfz-24">
+          <mxGeometry x="120" y="60" width="50" height="63.38" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-58" value="Funcionário visualiza agendamentos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sStl8TKwt9BqkflRGXfz-24" source="sStl8TKwt9BqkflRGXfz-57" target="sStl8TKwt9BqkflRGXfz-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-57" value="usuário do sistema" style="shape=mxgraph.cisco.people.androgenous_person;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="sStl8TKwt9BqkflRGXfz-24">
+          <mxGeometry x="110.5" y="180" width="69" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-33" value="Checklist de procedimento e finalização de serviço" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1070" width="790" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-48" value="Funcionário atualizando o progresso" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sStl8TKwt9BqkflRGXfz-33" source="sStl8TKwt9BqkflRGXfz-37" target="sStl8TKwt9BqkflRGXfz-59">
+          <mxGeometry x="-0.2621" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="191" />
+              <mxPoint x="130" y="77" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-37" value="usuário do sistema" style="shape=mxgraph.cisco.people.androgenous_person;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="sStl8TKwt9BqkflRGXfz-33">
+          <mxGeometry x="20" y="170" width="69" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-49" value="Dados do pet atualizado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sStl8TKwt9BqkflRGXfz-33" source="sStl8TKwt9BqkflRGXfz-46" target="sStl8TKwt9BqkflRGXfz-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="392.07" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-51" value="Serviço concluído, cliente é notificado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sStl8TKwt9BqkflRGXfz-33" source="sStl8TKwt9BqkflRGXfz-46" target="sStl8TKwt9BqkflRGXfz-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-46" value="Servidor" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="sStl8TKwt9BqkflRGXfz-33">
+          <mxGeometry x="362.07" y="50" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-47" value="" style="image;html=1;image=img/lib/clip_art/computers/Database_Move_Stack_128x128.png" vertex="1" parent="sStl8TKwt9BqkflRGXfz-33">
+          <mxGeometry x="360" y="220" width="46.75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-39" value="Amazon SNS" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.sns;" vertex="1" parent="sStl8TKwt9BqkflRGXfz-33">
+          <mxGeometry x="489.99999999999994" y="161" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-53" value="Cliente" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mobile_client;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="sStl8TKwt9BqkflRGXfz-33">
+          <mxGeometry x="729.9999999999999" y="170" width="40.5" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sStl8TKwt9BqkflRGXfz-33" source="sStl8TKwt9BqkflRGXfz-39" target="sStl8TKwt9BqkflRGXfz-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="692" y="200" />
+              <mxPoint x="692" y="202" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-56" value="Notificação para o cliente" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sStl8TKwt9BqkflRGXfz-54">
+          <mxGeometry x="0.2053" y="-2" relative="1" as="geometry">
+            <mxPoint x="-29" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sStl8TKwt9BqkflRGXfz-33" source="sStl8TKwt9BqkflRGXfz-59" target="sStl8TKwt9BqkflRGXfz-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-59" value="Amazon Cloudfront" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.cloudfront;" vertex="1" parent="sStl8TKwt9BqkflRGXfz-33">
+          <mxGeometry x="170" y="22" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-78" value="Checklist entregue para cliente" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1400" width="650" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-71" value="Acesso e assinatura do checklist" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sStl8TKwt9BqkflRGXfz-78" source="sStl8TKwt9BqkflRGXfz-80" target="sStl8TKwt9BqkflRGXfz-77">
+          <mxGeometry x="-0.2621" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="92" />
+              <mxPoint x="240" y="92" />
+            </Array>
+            <mxPoint as="offset" />
+            <mxPoint x="218.49999999999977" y="219" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-73" value="Dados do serviço atualizado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sStl8TKwt9BqkflRGXfz-78" source="sStl8TKwt9BqkflRGXfz-74" target="sStl8TKwt9BqkflRGXfz-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="521.5699999999999" y="318" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-74" value="Servidor" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="sStl8TKwt9BqkflRGXfz-78">
+          <mxGeometry x="491.5799999999999" y="64.5" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-75" value="" style="image;html=1;image=img/lib/clip_art/computers/Database_Move_Stack_128x128.png" vertex="1" parent="sStl8TKwt9BqkflRGXfz-78">
+          <mxGeometry x="487.43" y="180" width="46.75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sStl8TKwt9BqkflRGXfz-78" source="sStl8TKwt9BqkflRGXfz-77" target="sStl8TKwt9BqkflRGXfz-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-77" value="Amazon Cloudfront" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.cloudfront;" vertex="1" parent="sStl8TKwt9BqkflRGXfz-78">
+          <mxGeometry x="310" y="36.5" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-80" value="Cliente" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mobile_client;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="sStl8TKwt9BqkflRGXfz-78">
+          <mxGeometry x="19.999999999999886" y="60" width="40.5" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="sStl8TKwt9BqkflRGXfz-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sStl8TKwt9BqkflRGXfz-47" target="sStl8TKwt9BqkflRGXfz-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="495" y="1370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
