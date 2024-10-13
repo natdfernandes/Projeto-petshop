@@ -46,13 +46,31 @@ O Amazon CloudFront é um serviço da Amazon Web Services (AWS) que atua como um
     - o sistema do checklist estará concluido no sistema em forma de aplicativo e o cliente deve dar um visto e assinar de forma digital.
     - **serviço aws:** O Amazon CloudFront é um serviço da Amazon Web Services (AWS) que atua como uma rede de entrega de conteúdo (CDN).
 
-
+## Diagrama da solução usando os recursos da AWS
+![Diagrama solução usando aws](imagens/diagrama%20para%20petshop.drawio.png)
 
 ## Preços de serviços usados pela aws
 - **cognito valores:**
 ![Preço cognito](imagens/preço-cognito.png)
 - **sns valores:**
 ![Preço sns](imagens/preço-sns.png)
+- **QuickSight:**
+![Preço QuickSight-autor](imagens/preço-quicksight-autor.png)
+![Preço QuickSight-leitor](imagens/preço-quicksight-leitor.png)
+- **CloudFront:**
+    -   Nível gratuito
+    ![Preço CloudFront-gratuito](imagens/preço-cloudfront.png)
+    - Transferência regional de dados externas para a internet (por GB)
+    ![Preço CloudFront-tranferencia-externa](imagens/preço-cloudfront-tranferencia-externa.png)
+    - Transferência de dados regional para a origem (por GB)
+    ![Preço CloudFront-transferencia-interna](imagens/preço-cloudfront-tranferencia-interna.png)
+    - Solicitar preço para todos os métodos HTTP (por cada 10.000)
+    ![Preço CloudFront-requisições](imagens/preço-cloudfront-requisições.png)
+- **EC2** 
+    - Instancia medium, 1 vCPU e 4GB ram
+    ![Preço-ec2](imagens/preço-ec2-mediumpng.png)
+
 
 
 ## VM e containers
+Será utilizado uma instancia do EC2 para hospedar uma aplicação de servidor web por exemplo:Servidor php responsável por atuar como sistema principal para as empresas de petshops e para os clientes.
