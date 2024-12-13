@@ -1,4 +1,6 @@
 ## Natalia Dias Fernandes Matrícula:202402410751
+## Walquíria Gonçalves Barbosa Matrícula:202403773198
+## Leticia Antunes Matrícula:202403530449
 
 # Projeto computação em nuvem
 
